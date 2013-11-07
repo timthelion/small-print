@@ -1,0 +1,12 @@
+name:           small-print
+version:        0.0.0
+cabal-version:  >=1.2
+build-type:     Simple
+author:         timothy
+
+library
+  hs-source-dirs:  src
+  build-depends:   base >= 4
+  ghc-options:     -Wall
+  exposed-modules: Control.Exception.SmallPrint
+
